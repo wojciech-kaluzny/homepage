@@ -1,0 +1,101 @@
+body {
+    background-color: #fefefe;
+    font-family: tahoma;
+}
+
+#img-home {
+    width: 330px;
+    height: 250px;
+    border-radius: 0px 90px 0px 100px;
+}
+
+#img-second {
+    width: 440px;
+    height: 250px;
+    border-radius: 70px 90px 60px 100px;
+}
+
+header,
+footer {
+    margin-top: 7px;
+    background-color: bisque;
+    font-style: italic;
+}
+
+form {
+    display: flex;
+    width: 300px;
+    padding: 6px;
+}
+
+h2 {
+    color: #1460AA;
+}
+
+
+
+#listItem {
+    height: 25px;
+    outline: 0;
+    border: 0;
+    padding-left: 5px;
+}
+
+#btnListItem {
+    height: 27px;
+    background-color: lightgray;
+    outline: 0;
+    border: 0;
+    color: rgb(177, 38, 177)
+}
+
+#toDosSection {
+    padding: 7px;
+    background-color: plum;
+    height: 130px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#header-wings {
+    width: 71%;
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#main {
+    background-color: gainsboro;
+    width: 71%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+}
+
+.sprzet {
+    height: 400px;
+    width: 400px;
+}
+
+.wings-main p {
+    /* width: 800px;
+    background-color: gold; */
+    margin: 0 40px;
+}
+
+.run-img {
+    height: 400px;
+    width: auto;
+}
+
+#tempo {
+    width: 90%;
+    height: auto;
+}

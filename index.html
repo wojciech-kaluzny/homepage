@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O mnie</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="indSecond.html">Druga strona</a><br>
+            <a href="indWings4life.html">Wings For Life 2020</a><br>
+            <a href="git.html">GIT</a>
+        </nav>
+    </header>
+
+    <main>
+        <header>
+            <h1>Kilka słów o mnie</h1>
+        </header>
+        <section>
+            <h2>Jestem Wojtek</h2>
+            <img src="foty/wojtek-morze.jpg" alt="ja nad morzem" id="img-home">
+            <H2>i moim celem jest okiełznanie FRONTENDU</H2>
+            <p>najechetniej aby porzucic obecną prace</p>
+            <h2>uwielbiam kodować, tworzyś modifkować, usprawniać, poprawiać, optymalizować...</h2>
+            <p>a nie tylko utrzymywać parametry w SAP</p>
+            <h3>notatki z nauki</h3>
+            <h4>Tydzien 2</h4>
+            <ul>
+                <li><a href="http://codepen.io" target="_blank">codepen.io</a> - ciekawa strona do kodowania i
+                    wizualizowania kodow html css
+                    i js
+                </li>
+                <li><a href="https://www.w3.org/TR/CSS/" target="_blank">dokumentacja CSS na W3</a></li>
+                <li><a href="https://validator.w3.org/nu/#textarea" target="_blank">Validator kodu</a></li>
+            </ul>
+            <h4>Tydzien 3</h4>
+            <p>wrocic do tygodnia 3, przeleciec co bylo ciekawego poruszane czego nie umiem i wrzucic na strone</p>
+            <p>np termina i podstawowe komendy</p>
+            <h4>Tydzien 4</h4>
+            <ul>
+                <li>
+                    <a href="git.html">GIT</a>
+                </li>
+            </ul>
+            <section id="toDosSection">
+                <h3>to-do lista</h3>
+                <form>
+                    <input type="text" id="listItem" placeholder="dodaj  akcję">
+                    <input type="button" id="btnListItem" value="Dodaj" onclick="addToList()">
+                </form>
+                <ul id="toDosList"></ul>
+            </section>
+        </section>
+    </main>
+    <footer>2020 poświęcam na intensywny rozwój i 2021 idę na podbój</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
